@@ -18,6 +18,8 @@ class CreateTasksTable extends Migration
             $table->string('task_id');
             $table->tinyInteger('duration');
             $table->tinyInteger('level');
+            $table->unsignedBigInteger('developer_id')->nullable();
+            $table->integer('week')->nullable();
             $table->timestamps();
         });
     }
