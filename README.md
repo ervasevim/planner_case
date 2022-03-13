@@ -12,6 +12,7 @@ Installation
 git clone git@github.com:ervasevim/planner_case.git
 cd planner_case
 composer update
+php artisan key:generate
 ```
 
 Create .env file data
