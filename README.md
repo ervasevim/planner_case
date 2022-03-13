@@ -27,4 +27,5 @@ Configuration
 php artisan migrate
 composer dump-autoload
 php artisan db:seed
+php artisan fetch:data
 ```
